@@ -619,34 +619,6 @@ def correlation_principal_components(pca,data_dem):
 
 
 
-#function_to_get_pca=pca_analysis(scaling_dataset(dividing_dataset(import_data())))
-
-#function_to_get_scree_plot=scree_plot(pca_analysis(scaling_dataset(dividing_dataset(import_data()))))
-
-#function_to_display_centriod=(k_means((scaling_factor_loading(analyse_factor_loading(pca_analysis(scaling_dataset(dividing_dataset(import_data()))),scaling_dataset(dividing_dataset(import_data())),
-                     #  factor_loading(pca_analysis(scaling_dataset(dividing_dataset(import_data())))))))))
-
-
-
-
-
-function_to_get_k_means=k_means((scaling_factor_loading(analyse_factor_loading(pca_analysis(scaling_dataset(dividing_dataset(import_data()))),scaling_dataset(dividing_dataset(import_data())),
-                       factor_loading(pca_analysis(scaling_dataset(dividing_dataset(import_data()))))))))
-
-function_to_get_factor_loading=(analyse_factor_loading(pca_analysis(scaling_dataset(dividing_dataset(import_data()))),scaling_dataset(dividing_dataset(import_data())),
-                      factor_loading(pca_analysis(scaling_dataset(dividing_dataset(import_data()))))))
-
-
-
-#function_to_get_dentogram=clustering(function_to_get_k_means)
-
-
-
-
-demgraphic_analysis(rename_channels(concat_dataframe_cluster_principal(function_to_get_k_means,function_to_get_factor_loading,dividing_dataset(import_data())
-                                                                           )))
-
-
 
 
 
